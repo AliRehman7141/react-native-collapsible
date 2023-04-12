@@ -63,11 +63,6 @@ export default function CollapsibleContainer({
   }, []);
 
   return (
-    <KeyboardAvoidingView
-      style={styles.container}
-      behavior="padding"
-      {...keyboardAvoidingViewProps}
-    >
       <View
         {...props}
         ref={containerRef}
@@ -78,7 +73,6 @@ export default function CollapsibleContainer({
         {children}
         <CollapsibleHeaderConsumer />
       </View>
-    </KeyboardAvoidingView>
   );
 }
 
