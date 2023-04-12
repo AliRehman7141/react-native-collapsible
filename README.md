@@ -1,4 +1,4 @@
-# @r0b0t3d/react-native-collapsible
+# @alirehman7141/react-native-collapsible
 
 Fully customizable collapsible views
 
@@ -7,7 +7,7 @@ Fully customizable collapsible views
 ## Installation
 
 ```sh
-yarn add @r0b0t3d/react-native-collapsible
+yarn add @alirehman7141/react-native-collapsible
 ```
 
 I am using `reanimated 2` for animation. So you should install and follow instruction here to setup your project [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/installation)
@@ -25,7 +25,7 @@ import {
   CollapsibleContainer,
   CollapsibleFlatList,
   CollapsibleScrollView,
-} from '@r0b0t3d/react-native-collapsible';
+} from '@alirehman7141/react-native-collapsible';
 
 // ...
 const MyComponent = () => {

@@ -4,7 +4,7 @@ import {
   RefreshControl,
   StickyView,
   useCollapsibleContext,
-} from '@r0b0t3d/react-native-collapsible';
+} from '@alirehman7141/react-native-collapsible';
 import React, { useCallback, useEffect, useMemo, useRef } from 'react';
 import { Image, StyleSheet, Text, TextInput, View } from 'react-native';
 import Animated from 'react-native-reanimated';

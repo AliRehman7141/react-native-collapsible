@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@r0b0t3d/react-native-collapsible": ["./src/index"]
+      "@alirehman7141/react-native-collapsible": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

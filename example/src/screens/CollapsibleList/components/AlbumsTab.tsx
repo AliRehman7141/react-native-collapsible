@@ -1,4 +1,4 @@
-import { CollapsibleFlatList } from '@r0b0t3d/react-native-collapsible';
+import { CollapsibleFlatList } from '@alirehman7141/react-native-collapsible';
 import React, { useMemo } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 
