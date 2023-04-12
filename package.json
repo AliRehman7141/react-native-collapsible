@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/r0b0t3d/react-native-collapsible",
+  "repository": "https://github.com/AliRehman7141/react-native-collapsible",
   "author": "Tuan Luong <tuanluong.it@gmail.com> (https://github.com/r0b0t3d)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/r0b0t3d/react-native-collapsible/issues"
+    "url": "https://github.com/AliRehman7141/react-native-collapsible/issues"
   },
-  "homepage": "https://github.com/r0b0t3d/react-native-collapsible#readme",
+  "homepage": "https://github.com/AliRehman7141/react-native-collapsible#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
