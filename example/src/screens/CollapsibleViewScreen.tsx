@@ -2,7 +2,7 @@ import {
   CollapsibleHeaderProps,
   CollapsibleHeaderText,
   CollapsibleView,
-} from '@r0b0t3d/react-native-collapsible';
+} from '@alirehman7141/react-native-collapsible';
 import React, { useCallback } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 

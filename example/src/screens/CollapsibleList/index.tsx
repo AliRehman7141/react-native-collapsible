@@ -14,7 +14,7 @@ import {
   CollapsibleView,
   StickyView,
   withCollapsibleContext,
-} from '@r0b0t3d/react-native-collapsible';
+} from '@alirehman7141/react-native-collapsible';
 import Top100Tab from './components/Top100Tab';
 import AlbumsTab from './components/AlbumsTab';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';

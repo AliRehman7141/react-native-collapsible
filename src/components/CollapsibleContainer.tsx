@@ -1,7 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useCallback, useRef } from 'react';
 import {
-  KeyboardAvoidingView,
   KeyboardAvoidingViewProps,
   LayoutChangeEvent,
   StyleSheet,
@@ -49,7 +48,7 @@ export default function CollapsibleContainer({
               scrollTo(top + height + extraOffset - containerHeight.current);
             }
           },
-          () => {}
+          () => { }
         );
       }
       return isFocused;
@@ -63,22 +62,16 @@ export default function CollapsibleContainer({
   }, []);
 
   return (
-    <KeyboardAvoidingView
-      style={styles.container}
-      behavior="padding"
-      {...keyboardAvoidingViewProps}
+    <View
+      {...props}
+      ref={containerRef}
+      style={[styles.container, props.style]}
+      onLayout={handleContainerLayout}
+      collapsable={false}
     >
-      <View
-        {...props}
-        ref={containerRef}
-        style={[styles.container, props.style]}
-        onLayout={handleContainerLayout}
-        collapsable={false}
-      >
-        {children}
-        <CollapsibleHeaderConsumer />
-      </View>
-    </KeyboardAvoidingView>
+      {children}
+      <CollapsibleHeaderConsumer />
+    </View>
   );
 }
 
